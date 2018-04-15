@@ -63,7 +63,7 @@ class ShipCell extends Component {
 		const normals    = {
 			"temperature": function (v) {
 				let min = 21,
-				    max = 25;
+				    max = 30;
 				return v < min || v > max;
 
 
