@@ -1,0 +1,46 @@
+.ship {
+	border-collapse: collapse;
+	border-spacing:  0;
+	margin:          5em auto;
+}
+
+.ship__cell_cascade {
+	width:  15em;
+	height: 15em;
+
+}
+
+.ship__cell {
+	width:         100%;
+	height:        100%;
+
+	border-radius: .5em;
+	padding:       1em;
+	box-sizing:    border-box;
+}
+
+.ship__cell--no-data {
+	background: #a2e7ff;
+}
+
+.ship__cell--ok {
+	background: #aaff76;
+}
+
+.ship__cell--warn {
+	background: #ffe800;
+}
+
+.ship__cell--error {
+	background: #e09ca6;
+}
+
+.ship__cell__data {
+	margin-top: 1em;
+	text-align: left;
+	font-size:  .75em;
+}
+
+.red {
+	color: #bd0000;
+}
